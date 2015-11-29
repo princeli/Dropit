@@ -13,6 +13,8 @@
 		088A82FE1BFD8ABD00EE7749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088A82FC1BFD8ABD00EE7749 /* Main.storyboard */; };
 		088A83001BFD8ABD00EE7749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088A82FF1BFD8ABD00EE7749 /* Assets.xcassets */; };
 		088A83031BFD8ABD00EE7749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088A83011BFD8ABD00EE7749 /* LaunchScreen.storyboard */; };
+		08F869EB1C019E8900EC7849 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F869EA1C019E8800EC7849 /* DropitBehavior.m */; };
+		08F869EE1C01B4F800EC7849 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F869ED1C01B4F800EC7849 /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		088A82FF1BFD8ABD00EE7749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		088A83021BFD8ABD00EE7749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		088A83041BFD8ABD00EE7749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F869E91C019E8800EC7849 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		08F869EA1C019E8800EC7849 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
+		08F869EC1C01B4F800EC7849 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		08F869ED1C01B4F800EC7849 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,12 @@
 		088A82F21BFD8ABD00EE7749 /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
-				088A82F61BFD8ABD00EE7749 /* AppDelegate.h */,
-				088A82F71BFD8ABD00EE7749 /* AppDelegate.m */,
+				08F869E91C019E8800EC7849 /* DropitBehavior.h */,
+				08F869EA1C019E8800EC7849 /* DropitBehavior.m */,
 				088A82F91BFD8ABD00EE7749 /* ViewController.h */,
 				088A82FA1BFD8ABD00EE7749 /* ViewController.m */,
+				08F869EC1C01B4F800EC7849 /* BezierPathView.h */,
+				08F869ED1C01B4F800EC7849 /* BezierPathView.m */,
 				088A82FC1BFD8ABD00EE7749 /* Main.storyboard */,
 				088A82FF1BFD8ABD00EE7749 /* Assets.xcassets */,
 				088A83011BFD8ABD00EE7749 /* LaunchScreen.storyboard */,
@@ -74,6 +82,8 @@
 		088A82F31BFD8ABD00EE7749 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				088A82F61BFD8ABD00EE7749 /* AppDelegate.h */,
+				088A82F71BFD8ABD00EE7749 /* AppDelegate.m */,
 				088A82F41BFD8ABD00EE7749 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				088A82FB1BFD8ABD00EE7749 /* ViewController.m in Sources */,
+				08F869EB1C019E8900EC7849 /* DropitBehavior.m in Sources */,
+				08F869EE1C01B4F800EC7849 /* BezierPathView.m in Sources */,
 				088A82F81BFD8ABD00EE7749 /* AppDelegate.m in Sources */,
 				088A82F51BFD8ABD00EE7749 /* main.m in Sources */,
 			);
@@ -298,6 +310,7 @@
 				088A83091BFD8ABD00EE7749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
